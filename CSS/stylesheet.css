@@ -1,4 +1,4 @@
-.body
+body
 {
     background-color: lightgreen;
 }
@@ -9,7 +9,7 @@
 {
         display: inline;
 }
-.a
+a
 {
     color: brown;
 }

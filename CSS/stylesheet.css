@@ -23,8 +23,8 @@ body
     border-radius: 1px;
     border: 2px solid #400a82;
     background-color: #9253e0;
-    padding: 5px 10px;
-    color:#becc4b;
+    padding: 5px 10px 5px 10px;
+    color:#32c6d9;
 }
 .dropdown-content {
     display: none;

@@ -8,7 +8,7 @@ body
 .navbar
 {
     border: 2px solid #d148f3 ;
-    border-radius: 5px;
+    border-radius: 1px;
     background-color: #d148f3;
     justify-content: flex-start;
 }

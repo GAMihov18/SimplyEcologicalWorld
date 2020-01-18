@@ -27,10 +27,12 @@ body
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #32c6d9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 5px;
+    border: 2px solid #1e7b87;
 }
 .dropdown-content a 
 {
@@ -41,11 +43,19 @@ body
 }
 .dropdown-content a:hover 
 {
-    background-color: #ddd;
+    background-color: #2bb0c2;
+}
+
+@keyframes fading-in-dropdown
+{
+    from {display: none;}
+    to {display: block;}
 }
 
 .navbaritem:hover .dropdown-content
 {
+    animation-name: fading-in-dropdown;
+    animation-duration: 2s;
     display: block;
 }
   

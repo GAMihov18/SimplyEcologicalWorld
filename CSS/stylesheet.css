@@ -1,6 +1,6 @@
 body
 {
-    background-color:#022026 ;
+    background-image: linear-gradient(to bottom, #022026, #01434a, #016a6f, #129391, #30bfb1);
     color: white;
 }
 .navdiv{
@@ -77,4 +77,9 @@ font-weight: bold;
 {    
     font-weight: bold;
     padding-left: 10px;
+}
+
+ol {
+
+list-style-type: decimal;
 }

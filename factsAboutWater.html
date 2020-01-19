@@ -10,60 +10,25 @@
     <title>Blue Economy</title>
 </head>
 <body>
-    <!--The Start of the navigation bar-->
-    <div class="navdiv">
-        <!--Heading-->
-        <h1 style="text-align: center;">Simply Ecological World</h1>
-        <hr>
-        <!--Navigation-->
-        <div class="navbar">
-        <!--An element of the nav bar-->
-        <div class="navbaritem">
-            <button class="navbarbutton">Home</button>
-            <!--Content of dropdown menus-->
-            <div class="dropdown-content">
-                <a href="index.html">Main Page</a>
-                <a href="about.html">About</a>
-                <a href="FAQ.html">FAQ</a>
-            </div>
-        </div>
-        <!--An element of the nav bar-->
-        <div class="navbaritem">
-            <button class="navbarbutton">Info</button>
-            <!--Content of dropdown menus-->
-            <div class="dropdown-content">
-                <a href="water-info.html">Information about water</a>
-                <a href="air-info.html">Information about air</a>
-            </div>
-        </div>
-        <!--An element of the nav bar-->
-        <div class="navbaritem">
-            <button class="navbarbutton">Facts</button>
-            <!--Content of dropdown menus-->
-            <div class="dropdown-content">
-                <a href="factsAboutWater.html">Facts about water</a>
-                <a href="facts_about_air.html">Facts about air</a>
-            </div>
-        </div>
-        <!--An element of the nav bar-->
-        <div class="navbaritem">
-            <button class="navbarbutton">Tips & Tricks</button>
-            <!--Content of dropdown menus-->
-            <div class="dropdown-content">
-                
-            </div>
-        </div>
-        </div>
-    </div>
-    <!--The start of the actual page-->
-<h1>Interesting facts about Water</h1>
-<ol> 
+    <div id="nav-placeholder"></div>
+
+    
+    <h1>Interesting facts about Water</h1>
+    <ol> 
     <li>97% of the water is salt water, only 3% is fresh.</li>
-   <li> More water is found in the atmosphere than all of the planet combined.</li>
-   <li>  Hot water freezes faster than cold.</li>
-   <li>Cold water is heavier than hot water.</li>
-   <li> Water is the only substance on the earth which is found naturally in 3 forms: liquid, solid and gas.</li>
+    <li> More water is found in the atmosphere than all of the planet combined.</li>
+    <li>  Hot water freezes faster than cold.</li>
+    <li>Cold water is heavier than hot water.</li>
+    <li> Water is the only substance on the earth which is found naturally in 3 forms: liquid, solid and gas.</li>
     </ol>
     
+
+
+    <script src="./JQuery/jquery-3.4.1.js"></script>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("navbar.html");
+        });
+    </script>
 </body>
 </html>

@@ -74,15 +74,21 @@ body
 }
 .q
 {
-font-weight: bold;
+    font-weight: bold;
 }
 .a
 {    
-    font-weight: bold;
     padding-left: 10px;
 }
 
-ol {
+ol 
+{
+    list-style-type: decimal;
+}
 
-list-style-type: decimal;
+.flex-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
 }

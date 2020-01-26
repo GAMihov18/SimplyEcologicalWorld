@@ -90,5 +90,11 @@ ol
 {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
+}
+
+.team-container
+{
+    background-color: darkcyan;
+    justify-content: center;
+    width: 400px;
 }

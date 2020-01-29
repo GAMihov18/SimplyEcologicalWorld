@@ -1,5 +1,4 @@
-body
-{
+body {
     background-image: linear-gradient(to top, #022026, #043038, #07414a, #0a535d, #0f6671, #10737e, #11818b, #148f97, #169b9f, #1ba7a6, #25b3ac, #30bfb1);
     color: white;
     height: 100vh;
@@ -8,22 +7,19 @@ body
 .navdiv{
     background-color: #30BFB1;
 }
-.navbar
-{
+.navbar {
     border: 2px solid #0A5159 ;
     border-radius: 1px;
     background-color: #0A5159;
     justify-content: flex-start;
 }
-.navbaritem
-{
+.navbaritem {
     position: relative;
     display: inline-block;
     padding: 1px;
 
 }
-.navbarbutton
-{
+.navbarbutton {
     border-radius: 1px;
     border: 2px solid #0A5159;
     background-color: #16808C;
@@ -42,95 +38,78 @@ body
     border-radius: 5px;
     border: 2px solid #21A6A6;
 }
-.dropdown-content a 
-{
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover 
-{
+.dropdown-content a:hover {
     background-color: #21a6a6;
 }
 
-@keyframes fading-in-dropdown
-{
+@keyframes fading-in-dropdown {
     from {display: none;}
     to {display: block;}
 }
 
-.navbaritem:hover .dropdown-content
-{
+.navbaritem:hover .dropdown-content {
     animation-name: fading-in-dropdown;
     animation-duration: 2s;
     display: block;
 }
   
-.navbaritem:hover .navbarbutton
-{
+.navbaritem:hover .navbarbutton {
     background-color: #022026;
 }
-.q
-{
+.q {
     font-weight: bold;
 }
-.a
-{    
+.a {    
     padding-left: 10px;
 }
 
-ol 
-{
+ol {
     list-style-type: decimal;
 }
 
-.flex-container 
-{
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.team-container
-{
+.team-containe {
     background-color: darkcyan;
     margin: 10px;
     padding: 10px;
     width: 400px;
 }
-p
-{
+p {
     padding-left: 10px;
     
 }
-h1
-{
-    padding-left: 5px;
+h1 {
+    padding-top: 30px;
     text-align: center;
 }
-h2
-{
-    padding-left: 5px;
+h2 {
+ 
     text-align: center;
 }
-h3
-{
-    padding-left: 5px;
+h3 {
+
     text-align: center;
 }
-h4
-{
-    padding-left: 5px;
+h4 {
+
     text-align: center;
 }
-h5
-{
-    padding-left: 5px;
+h5 {
+
     text-align: center;
 }
-h6
-{
-    padding-left: 5px;
+h6 {
+
     text-align: center;
 }

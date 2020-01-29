@@ -6,36 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--bootstrap.css has to always be above the css-->
-    <link rel="stylesheet" href="./CSS/CSS Extensions/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./CSS/stylesheet.css">
     <link rel="icon" href="./Pics/Logo.png">
     <title>Simply Ecological World</title>
 </head>
 <body>
-    <div id="nav-placeholder"></div>
-
-    <h1>Learn how to save water in a very easy and simple way! </h1>
-
-    <p>Why we have to save water?</p>
-
-    <a>Water is one of the most important things in the world. We need it to be alive. Water is a thing that we use every day and we use it for so many things.
-    We should know that water is not endless and we are obliged to save it and not polluting it.
-    </a>
-
     
+    <div id="nav-placeholder"></div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="2000">
+            <img src="./Pics/waterPictureUnderwater.jpg" class="d-block w-100" alt="UnderwaterWaterPicture">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="./Pics/Wave.jpg" class="d-block w-100" alt="A picture of a wave">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <div class="container-fluid">
+        <h1>Learn how to save water in a very easy and simple way!</h1>
 
+        <p>Why do we have to save water?<br>That is a question that is asked more and more frequently around the world</p>
 
-    <h2></h2>
+        <p>Water is one of the most important things in the world. We need it to be alive. Water is a thing that we use every day and we use it for so many things.<br>   We should know that water is not endless and we are obliged to save it and not polluting it.</p>
+        
+        <h3></h3>
 
-
+    </div>
 
 
 
     <script src="./JQuery/jquery-3.4.1.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
     <script>
+
         $(function(){
           $("#nav-placeholder").load("navbar.html");
         });
     </script>
+
 </body>
 </html>

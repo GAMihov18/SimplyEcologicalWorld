@@ -4,6 +4,10 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
 }
+.main-header{
+    text-align: center;
+    padding: 20px 0;
+}
 .navdiv{
     background-color: #30BFB1;
 }
@@ -57,14 +61,16 @@ body {
     animation-name: fading-in-dropdown;
     animation-duration: 2s;
     display: block;
-}
-  
+} 
+
 .navbaritem:hover .navbarbutton {
     background-color: #022026;
 }
+
 .q {
     font-weight: bold;
 }
+
 .a {    
     padding-left: 10px;
 }
@@ -85,31 +91,42 @@ ol {
     padding: 10px;
     width: 400px;
 }
+
 p {
     padding-left: 10px;
-    
 }
+
 h1 {
     padding-top: 30px;
     text-align: center;
 }
+
 h2 {
- 
     text-align: center;
 }
+
 h3 {
-
     text-align: center;
 }
+
 h4 {
-
     text-align: center;
 }
+
 h5 {
-
     text-align: center;
 }
-h6 {
 
+h6 {
     text-align: center;
+}
+
+.btn-menu{
+    background-color: #16808C;
+    padding: 5px 10px;
+    margin-left:25px;
+    color: white;
+}
+.btn-menu:hover{
+    color: #ccc;
 }

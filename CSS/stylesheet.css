@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(to top, #022026, #043038, #07414a, #0a535d, #0f6671, #10737e, #11818b, #148f97, #169b9f, #1ba7a6, #25b3ac, #30bfb1);
     color: white;
-    height:100vh;
+    height:800vh;
     background-repeat: no-repeat;
 }
 .main-header{

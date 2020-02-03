@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top, #022026, #043038, #07414a, #0a535d, #0f6671, #11818b, #148f97, #169b9f, #25b3ac, #30bfb1);
+    background-image: linear-gradient(to top,#022026,#0A5159,#16808C,#21A6A6,#30BFB1 );
     color: white;
     height:600vh;
     background-repeat: no-repeat;
@@ -94,6 +94,7 @@ ol {
 }
 
 p {
+
     padding-left: 10px;
     background-color:#E8A78E ;
 }

@@ -112,13 +112,12 @@ h3 {
     
 }
 .h3 {
-
     text-align: center;
     border:1px solid #0A5159;
     border-radius: 5px;
     background-color: #0A5159;
     padding: 10px;
-
+    margin: 20px 0;
 }
 
 h4 {
@@ -153,4 +152,10 @@ h6 {
     text-decoration: none;
     color: white;
     background-color: rgba(0,0,0,0.1);
+}
+.page-footer{
+    background-color: #0A5159;
+}
+.image-container{
+    margin-top: 142px;
 }

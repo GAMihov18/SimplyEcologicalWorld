@@ -94,10 +94,6 @@ ol {
 }
 
 p {
-    
-    background-color:#022026 ;
-    border:1px solid #022026;
-    border-radius: 15px;
 }
 
 h1 {
@@ -119,7 +115,7 @@ h3 {
 
     text-align: center;
     border:1px solid #0A5159;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #0A5159;
     padding: 10px;
 
